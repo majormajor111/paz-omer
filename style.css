@@ -3,11 +3,14 @@
     padding:0px;
     margin:0px;
     box-sizing:border-box;
+    direction: rtl;
+    text-align: right;
   }
   
   .row:after {
     content:"";
     display:table;
+    clear:both;
   }
   
   .column {
@@ -17,8 +20,14 @@
 
   .main{
       padding-left: 15px;
-      padding-top: 100px;
+      padding-top: 30px;
       margin: auto;
       width:920px;
   }
   
+  .top {
+      height: 106px;
+      width:100%;
+      background-image: url("images/header_bg.png");
+      background-repeat: repeat-x;
+  }
