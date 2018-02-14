@@ -149,9 +149,32 @@ nav > ul > li , .menu-elem{
 .dropdown:hover > .dropdown-content {
   display: block;
 }
-
-nav > ul > li >  div > a {
+/*
+nav > ul > li >  div {
+  position: relative;
+}
+*/
+/*
+.dropdown > a {
   position: absolute;
   top:0px;
   right:10px;
+}
+*/
+
+
+.dropdown > a {
+  margin: 6px 13px 0px 8px;
+  font-size: 15px;
+}
+
+.dropdown > .menu-sep {
+  margin: 8px 0px -6px 0px;
+}
+
+.dropdown-content > ul > li a{
+  height: 30px;
+  background-image: url("images/menu_dropdown_bg.png");
+  background-repeat: repeat-x;
+
 }
