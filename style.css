@@ -85,6 +85,9 @@ logo {
   position: relative;
   width: 34px;
   height: 15PX;
+  margin-right: 7px;
+  margin-left: -10px;
+  display: block;
 }
 
 .home-front {
@@ -121,7 +124,14 @@ logo {
   background: transparent;
   border: none;
   width: 124px;
+  font-size: 12px;
+  font-weight: normal;
   margin-right: 3px;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
 }
 
 .lang {
@@ -189,4 +199,24 @@ nav > ul > li,
   background-image: none;
   text-decoration: underline;
   color: blue;
+}
+
+.upper-img {
+  border-bottom-right-radius: 22px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.lower-img {
+  height: 216px;
+  width: 292px;
+  background-image: url("images/small_cube_bg.png");
+  margin: 4px;
+  position: relative;
+}
+
+.lower-img > img {
+  position: absolute;
+  right: 50px;
+  top: 50px;
 }
