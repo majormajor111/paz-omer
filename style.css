@@ -201,10 +201,27 @@ nav > ul > li,
   color: blue;
 }
 
-.upper-img {
-  border-bottom-right-radius: 22px;
-  padding: 0px;
-  margin: 0px;
+.upper-left-img {
+  height: 354px;
+  width: 291px;
+  background-image: url("images/פזקר_-291_354410564000.jpg");
+}
+
+.upper-mid-img {
+  height: 354px;
+  width: 291px;
+  background-image: url("images/Picture-046410251500.jpg");
+}
+
+.upper-right-img {
+  height: 354px;
+  width: 291px;
+  background-image: url("images/1908364606615453350.JPG");
+}
+
+.upper-img > img{
+  height: 100%;
+  width: 100%;
 }
 
 .lower-img {
@@ -220,3 +237,4 @@ nav > ul > li,
   right: 50px;
   top: 50px;
 }
+
