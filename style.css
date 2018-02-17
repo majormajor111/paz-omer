@@ -238,3 +238,22 @@ nav > ul > li,
   top: 50px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 38px;
+  width: 100%;
+  background-image: url("images/footer_bg.png");
+}
+
+.fb-img {
+  height: 18px;
+  width: 18px;
+  background-image: url("images/fb_icon.png");
+}
+
+footer > div {
+  height: 100%;
+  width: 900px;
+  margin:auto;
+}
