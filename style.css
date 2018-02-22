@@ -20,21 +20,15 @@
   clear: both;
 }
 
-
-/*
-body {
-  background-color: black;
-}
-*/
-
-
 /* clearfix */
 
 .row:after,
 .header:after,
 .header-elem:after,
 nav:after,
-logo:after {
+.logo:after,
+.footer-menu:after,
+.fb-img:after {
   content: "";
   display: table;
   clear: both;
@@ -246,14 +240,34 @@ footer {
   background-image: url("images/footer_bg.png");
 }
 
+.footer-elem {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
 .fb-img {
   height: 18px;
   width: 18px;
   background-image: url("images/fb_icon.png");
+  margin-top:15px;
+  float: right;
 }
 
 footer > div {
   height: 100%;
   width: 900px;
   margin:auto;
+}
+
+.footer-sep {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.footer-menu {
+  padding-top:15px;
+  padding-right:5px;
+  float: right;
 }
