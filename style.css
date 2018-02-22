@@ -28,7 +28,8 @@
 nav:after,
 .logo:after,
 .footer-menu:after,
-.fb-img:after {
+.fb-img:after,
+.gray-tab > div {
   content: "";
   display: table;
   clear: both;
@@ -111,7 +112,6 @@ logo {
   height: 21px;
   width: 4px;
   background-image: url("images/menu_sep.png");
-  /*background-repeat: repeat-y;*/
 }
 
 .search-txt {
@@ -213,9 +213,57 @@ nav > ul > li,
   background-image: url("images/1908364606615453350.JPG");
 }
 
-.upper-img > img{
-  height: 100%;
-  width: 100%;
+.upper-overlay {
+  height: 354px;
+  width: 291px;
+  background-image: url("images/hp_tab_overlay.png"); 
+  position: relative;
+}
+
+.gray-tab {
+  height: 97px;
+  width: 248px;
+  background-image: url("images/hp_tab_text_bg.png");
+  position: absolute;
+  right: 10px;
+  top: 250px;
+}
+
+.gray-tab > h1 {
+  font-size:14px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.gray-tab > p {
+  font-weight: normal;
+  font-size:13px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.gray-tab > div {
+  float: left;
+  margin-top:-10px;
+}
+
+.arrw, .gray-tab a {
+  display: inline-block;
+}
+
+.gray-tab a {
+  display: inline-block;
+  text-decoration: underline;
+  font-weight: normal;
+  margin-left:5px;
+  font-size:13px;
+}
+.arrw {
+  height: 9px;
+  width: 8px;
+  margin-left:10px;
+  background-image: url("images/read_more_white.png");
 }
 
 .lower-img {
